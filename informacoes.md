@@ -1,4 +1,11 @@
-# Aula 02 
+# 01 
+- Pequeno passo à passo para utilização da lista telefônica.
+1. Abrir o terminal de sua preferência (ex: cmd). Navegar até a pasta do projeto ``listaTelefonica``
+2. Entrar na pasta ``nodeServer-http``
+3. Executar o seguinte comando para inicializar o servidor: ``node http.js``
+4. Pronto. Após isso funcionará :)
+
+# 02 
 ### `Diretivas Parte 1`
 
 #### ngApp
@@ -24,7 +31,7 @@
 - Atribui um comportamento ao evento
 ___
 
-# Aula 03
+# 03
 ### `Diretivas Parte 2`
 
 #### Diretivas 
@@ -47,7 +54,7 @@ ___
 - Inclui conteúdo dinamicamente
 ___
 
-# Aula 04
+# 04
 ### `Validando Formulários`
 
 #### ngRequired
@@ -69,7 +76,7 @@ ___
 - Define uma RegExp para validar campos
 ___
 
-# Aula 05
+# 05
 ### `Aplicando Filtros`
 
 #### Filtros
@@ -95,7 +102,7 @@ ___
 - Limita um array ou uma string
 ___
 
-# Aula 06
+# 06
 ### `Integrando com o back-end por AJAX`
 
 #### $http
@@ -124,13 +131,13 @@ Permissão para acessar recursos externos por meio de **cabeçalhos HTTP adicion
 ```
 ___
 
-# Aula 07
+# 07
 ### `Organizando o projeto`
 - Organização do projeto
 
 ___
 
-# Aula 08
+# 08
 ### `Criando Serviços`
 ```
 Um serviço é um **singleton**, ou seja, um objeto único. Criado na inicialização da aplicação e que está disponível para ser injetado em outros componentes.
@@ -152,7 +159,7 @@ Um serviço é um **singleton**, ou seja, um objeto único. Criado na inicializa
 - É como se fosse uma inicialização e permite passar parametros para os serviços do tipo provider.
 ___
 
-# Aula 09
+# 09
 ### `Criando Filtros`
 
 -  **Filtro 1 - _Names_** - Converter nomes, escritos em letras minúscula ou maiúscula, deixando apenas a primeira letra maiúscula.
@@ -162,7 +169,7 @@ Ex: _`` pablo ferreira -> Pablo Ferreira ``_.
 Ex: _``Pablo Ferreira -> Pablo F...``_.
 ___
 
-# Aula 10
+# 10
 ### `Criando Diretivas 01`
 
 #### _Directive Definition Object_
@@ -201,7 +208,7 @@ ___
 - Encapsula elementos dentro de uma diretiva, criando um scope não isolado.
 ___
 
-# Aula 11
+# 11
 ### `Criando Diretivas 02`
 
 #### Link
@@ -211,14 +218,14 @@ ___
 - Estabelece um vínculo com outra diretiva, interagindo por meio do controller que é um dos parâmetros da função link.
 ___
 
-# Aula 12
+# 12
 ### `Criando Diretivas 03`
 
 #### Controller
 - Permite a definição de uma API que pode ser compartilhada com outras diretivas.
 ___
 
-# Aula 13
+# 13
 ### `Modularizando o projeto`
 
 #### Módulo
@@ -228,7 +235,7 @@ ___
 - Utilizando o _$templateCache_ para guardar o template. Na primeira vez que um template é carregado, ele é ``armazenado em cache`` e acessível por meio do serviço $templateCache.
 ___
 
-# Aula 14
+# 14
 ### `Single-Page-Application com ngRoute`
 - É uma aplicação que realiza suas transições dentro de uma mesma página, carregando seus componentes de forma dinânima utilizando AJAX.
 
